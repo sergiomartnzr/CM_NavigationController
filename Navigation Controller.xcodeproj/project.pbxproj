@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D17640161F982C7700A70543 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D17640151F982C7700A70543 /* AppDelegate.m */; };
-		D17640191F982C7700A70543 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D17640181F982C7700A70543 /* ViewController.m */; };
+		D17640191F982C7700A70543 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = D17640181F982C7700A70543 /* Home.m */; };
 		D176401C1F982C7700A70543 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D176401A1F982C7700A70543 /* Main.storyboard */; };
 		D176401F1F982C7700A70543 /* Navigation_Controller.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D176401D1F982C7700A70543 /* Navigation_Controller.xcdatamodeld */; };
 		D17640211F982C7700A70543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D17640201F982C7700A70543 /* Assets.xcassets */; };
@@ -20,8 +20,8 @@
 		D17640111F982C7700A70543 /* Navigation Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navigation Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D17640141F982C7700A70543 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D17640151F982C7700A70543 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D17640171F982C7700A70543 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D17640181F982C7700A70543 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D17640171F982C7700A70543 /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		D17640181F982C7700A70543 /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		D176401B1F982C7700A70543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D176401E1F982C7700A70543 /* Navigation_Controller.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Navigation_Controller.xcdatamodel; sourceTree = "<group>"; };
 		D17640201F982C7700A70543 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,10 +60,8 @@
 		D17640131F982C7700A70543 /* Navigation Controller */ = {
 			isa = PBXGroup;
 			children = (
-				D17640141F982C7700A70543 /* AppDelegate.h */,
-				D17640151F982C7700A70543 /* AppDelegate.m */,
-				D17640171F982C7700A70543 /* ViewController.h */,
-				D17640181F982C7700A70543 /* ViewController.m */,
+				D176402E1F982C8F00A70543 /* Main */,
+				D176402D1F982C8600A70543 /* Controllers */,
 				D176401A1F982C7700A70543 /* Main.storyboard */,
 				D17640201F982C7700A70543 /* Assets.xcassets */,
 				D17640221F982C7700A70543 /* LaunchScreen.storyboard */,
@@ -72,6 +70,24 @@
 				D176401D1F982C7700A70543 /* Navigation_Controller.xcdatamodeld */,
 			);
 			path = "Navigation Controller";
+			sourceTree = "<group>";
+		};
+		D176402D1F982C8600A70543 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D17640171F982C7700A70543 /* Home.h */,
+				D17640181F982C7700A70543 /* Home.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D176402E1F982C8F00A70543 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D17640141F982C7700A70543 /* AppDelegate.h */,
+				D17640151F982C7700A70543 /* AppDelegate.m */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,7 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D17640191F982C7700A70543 /* ViewController.m in Sources */,
+				D17640191F982C7700A70543 /* Home.m in Sources */,
 				D17640161F982C7700A70543 /* AppDelegate.m in Sources */,
 				D17640271F982C7700A70543 /* main.m in Sources */,
 				D176401F1F982C7700A70543 /* Navigation_Controller.xcdatamodeld in Sources */,
