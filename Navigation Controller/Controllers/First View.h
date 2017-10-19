@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  First View.h
 //  Navigation Controller
 //
 //  Created by Walter Gonzalez Domenzain on 18/10/17.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Home : UIViewController
-- (IBAction)btn1Pressed:(id)sender;
-- (IBAction)btn2Pressed:(id)sender;
-
+@interface First_View : UIViewController
 
 @end
-
